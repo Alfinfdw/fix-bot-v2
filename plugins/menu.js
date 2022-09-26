@@ -218,14 +218,14 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, args }) => {
    {
 	title: `${htki} MAIN ${htka}`,
 	rows: [
-	    {title: `⚡ ${pmenus} SPEED BOT`, rowId: ".speed", description: "Menampilkan kecepatan respon BOT"},
-	    {title: `💌 ${pmenus} OWNER BOT`, rowId: ".owner", description: "Menampilkan List owner BOT"},
+	    {title: `⚡ ${pmenus} SPEED BOT`, rowId: ".speed", description: "Menampilkan kecepatan respon BOT Khurushi"},
+	    {title: `💌 ${pmenus} OWNER BOT`, rowId: ".owner", description: "Menampilkan List owner BOT Khurushi"},
 	    {title: `📔 ${pmenus} SCRIPT BOT`, rowId: ".sc", description: `Source Code ${namebot}`},
 	]
     },{
 	title: `${htki} SUPPORT ${htka}`,
 	rows: [
-	    {title: `🔖 ${pmenus} SEWA`, rowId: ".sewa", description: "Menampilkan list harga sewa BOT"},
+	    {title: `🔖 ${pmenus} SEWA`, rowId: ".sewa", description: "Menampilkan list harga sewa BOT Khurushi"},
 	    {title: `🌟 ${pmenus} BUY PREMIUM`, rowId: ".premium", description: "Menampilkan list harga premium"},
 	    {title: `💹 ${pmenus} DONASI`, rowId: ".donasi", description: 'Support BOT agar lebih fast respon'},
 	]
@@ -268,24 +268,24 @@ let tek = `*${ucapan()} ${conn.getName(m.sender)}*
 │「 Hi tod👋 」
 └┬༒︎ 「 ${conn.getName(m.sender)} 」
 ┌┤☠︎︎  𝘚𝘌𝘔𝘖𝘎𝘈 𝘩𝘢𝘳𝘪𝘮𝘶 𝘴𝘦𝘮𝘢𝘬𝘪𝘯 𝘕𝘛 𝘠𝘈𝘏 😄
-┊│☠︎︎ Terima Kasih Telah Menggunakan Bot Kami
+┊│☠︎︎ Terima Kasih Telah Menggunakan Bot Khurushi-Md❒
 │└────────────┈ ⳹
-┊   「 ᑌՏᗴᖇ IᑎᖴO ⌨︎ 」
-┊➪✩• 𝙉𝘼𝙈𝘼: ${usrs.registered ? usrs.name : conn.getName(m.sender)}
-┊➪✩• 𝙏𝘼𝙂𝙎: @${m.sender.split`@`[0]}
-┊➪✩• 𝙎𝙏𝘼𝙏𝙐𝙎: ${m.sender.split`@`[0] == nomorown ? 'Developer' : (usrs.premiumTime >= 1 ? 'Premium User' : 'Free User')}
-┊➪✩• 𝙋𝙍𝙀𝙈𝙄𝙐𝙈: ${usrs.premiumTime > 1 ? 'Yes': 'No'}
+┊   「 ᑌՏᗴᖇ IᑎᖴO  」
+┊❒• ɴᴀᴍᴀ: ${usrs.registered ? usrs.name : conn.getName(m.sender)}
+┊❒• ᴛᴀɢs: @${m.sender.split`@`[0]}
+┊❒• sᴛᴀᴛᴜs: ${m.sender.split`@`[0] == nomorown ? 'Developer' : (usrs.premiumTime >= 1 ? 'Premium User' : 'Free User')}
+┊❒• ᴘʀᴇᴍɪᴜᴍ: ${usrs.premiumTime > 1 ? 'Yes': 'No'}
 ┗–––––––––––––––––☯︎
 ┌–––––––––––––––––☯︎
-┊   「 ՏTᗩTᑌՏ IᑎᖴO ✵ 」
-┊↬✗• 𝙐𝙋𝙏𝙄𝙈𝙀: ${mpt}
-┊↬✗• 𝙏𝙄𝙈𝙀: ${moment.tz('Asia/Jakarta').format('HH')} H  ${moment.tz('Asia/Jakarta').format('mm')} M  ${moment.tz('Asia/Jakarta').format('ss')} S
-┊↬✗• 𝙐𝙎𝙀𝙍: ${Object.keys(global.db.data.users).length}
-┊↬✗• 𝙇𝙄𝙈𝙄𝙏: ${usrs.limit}
-┊↬✗• 𝙇𝙀𝙑𝙀𝙇: ${usrs.level}
-┊↬✗• 𝙍𝙊𝙇𝙀: ${usrs.role}${usrs.premiumTime > 1 ? `
+┊   「 ՏTᗩTᑌՏ IᑎᖴO  」
+┊❒• ᴜᴘᴛɪᴍᴇ: ${mpt}
+┊❒• ᴡᴀᴋᴛᴜ: ${moment.tz('Asia/Jakarta').format('HH')} H  ${moment.tz('Asia/Jakarta').format('mm')} M  ${moment.tz('Asia/Jakarta').format('ss')} S
+┊❒• ᴜsᴇᴅ ʙᴏᴛ: ${Object.keys(global.db.data.users).length}
+┊❒• ʟɪᴍɪᴛ ᴍᴜ: ${usrs.limit}
+┊❒• ʟᴇᴠᴇʟ ᴍᴜ: ${usrs.level}
+┊❒• ʀᴏʟᴇ ᴍᴜ: ${usrs.role}${usrs.premiumTime > 1 ? `
 ┗––––––––––––––––––☯︎
-┊↬✗• 𝙀𝙓𝙋𝙄𝙍𝙀𝘿 𝙋𝙍𝙀𝙈𝙄𝙐𝙈:
+┊↬✗• ᴇxᴘɪʀᴇᴅ ᴘʀᴇᴍɪᴜᴍ:
 ${clockStringP(usrs.premiumTime - new Date())}` : ''}
 `
 const listMessage = {
@@ -293,7 +293,7 @@ const listMessage = {
   footer: '🔱 𝙆𝙃𝙐𝙍𝙐𝙎𝙃𝙄-𝙈𝘿 | 𝘼𝙇𝙇 𝙍𝙀𝙑𝙀𝙍𝙎𝙀𝘿',
   mentions: await conn.parseMention(tek),
   title: `${htki} *LIST MENU* ${htka}`,
-  buttonText: `KLIK DISINI `, 
+  buttonText: `Halaman Menu❒`, 
   sections
 }
   if (teks == '404') {
