@@ -49,7 +49,7 @@ global.psaweria = 'https://saweria.com/Khurushi'
 global.nomorbot = '6285852939370'
 global.nomorown = '4915256954581'
 global.namebot = 'NILUHBOT-MD'
-global.nameown = 'ALGANZ-OFC'
+global.nameown = 'ALGANZ-SURANAYA'
 
 /*============== APIKEY SIMPEL ==============*/
 global.zenzkey = 'b8040941f7'
