@@ -176,16 +176,16 @@ global.dmenuf = '┗––––––––––✦' //footer
 global.dashmenu = '┅═┅═❏ *DASHBOARD* ❏═┅═┅'
 global.cmenut = '❏––––––『' //top
 global.cmenuh = '』––––––' //header
-global.cmenub = '┊☠︎' //body
+global.cmenub = '┊❒' //body
 global.cmenuf = '┗━═┅═━––––––๑\n' //footer
 global.cmenua = '\n⌕ ❙❘❙❙❘❙❚❙❘❙❙❚❙❘❙❘❙❚❙❘❙❙❚❙❘❙❙❘❙❚❙❘ ⌕\n     ' //after
-global.pmenus = '⫹⫺' //pembatas menu selector
+global.pmenus = '❒' //pembatas menu selector
 
 global.htki = '––––––『' // Hiasan Titile (KIRI)
 global.htka = '』––––––' // Hiasan Title  (KANAN)
 global.lopr = 'Ⓟ' //LOGO PREMIUM ON MENU.JS
 global.lolm = 'Ⓛ' //LOGO LIMIT/FREE ON MENU.JS
-global.htjava = '⫹⫺'    //hiasan Doang :v
+global.htjava = '❒'    //hiasan Doang :v
 global.hsquere = ['⛶','❏','⫹⫺']
 
 /*============== STICKER WM ==============*/
