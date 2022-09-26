@@ -37,7 +37,7 @@ ${htjava} *📷 ɪɴsᴛᴀɢʀᴀᴍ* : ${sig}
 ${htjava} *🐈 ɢɪᴛʜᴜʙ:* ${sgh}
 •·––––––––––––––––––––––––––·•
 `
-  let teks = 'Pilih dibawah kak ! o(〃＾▽＾〃)o'
+  let teks = 'hi kak ${conn.getName(m.sender)} welcome to list creator bot'
 const sections = [
    {
 	title: `${htjava} OWNER –––––––––·•`,
