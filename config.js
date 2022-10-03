@@ -37,18 +37,18 @@ global.sdc = '-' //discord
 global.snh = 'https://www.youtube.com/RIELLBOTZ OFFC' // my youtube channel
 
 /*============== PAYMENT ==============*/
-global.pdana = '6281352724422' //dana
+global.pdana = '6282223011829' //dana
 global.povo = '-' //ovo
 global.pgopay = '-' //gopay
 global.plinkaja = '-' //link aja
 global.ppulsa = '6282223011829' //telkomsel
-global.ppulsa2 = '4915256954581' // kalau ada kartu lain isi aja
+global.ppulsa2 = '6285852939370' // kalau ada kartu lain isi aja
 global.psaweria = 'https://saweria.com/Khurushi'
 
 /*============== NOMOR ==============*/
 global.nomorbot = '6285852939370'
-global.nomorown = '4915256954581'
-global.namebot = 'NILUHBOT-MD'
+global.nomorown = '6282223011829'
+global.namebot = 'ALganz-MD'
 global.nameown = 'ALGANZ-SURANAYA'
 
 /*============== APIKEY SIMPEL ==============*/
@@ -60,8 +60,8 @@ global.lolkey = '8e66d0934cf741bfd2182c16' // PUNYA WAHID 357d3c85079c4e0818731e
 global.owner = [
   ['6282223011829', '𝘙𝘪𝘦𝘭𝘭𝘎𝘢𝘯𝘻𝘻-𝘋𝘦𝘷', true],
   ['6285852939370', '𝘙𝘪𝘦𝘭𝘭𝘎𝘢𝘯𝘻𝘻-𝘋𝘦𝘷', true],
-  ['4915256954581', '𝘙𝘪𝘦𝘭𝘭𝘎𝘢𝘯𝘻𝘻-𝘋𝘦𝘷', true],
-  ['4915256954581', '𝘙𝘪𝘦𝘭𝘭𝘎𝘢𝘯𝘻𝘻-𝘋𝘦𝘷', true] //Ganti jd nomormu sama Namamu
+  ['6282223011829', '𝘙𝘪𝘦𝘭𝘭𝘎𝘢𝘯𝘻𝘻-𝘋𝘦𝘷', true],
+  ['6285852939370', '𝘙𝘪𝘦𝘭𝘭𝘎𝘢𝘯𝘻𝘻-𝘋𝘦𝘷', true] //Ganti jd nomormu sama Namamu
   // [number, dia creator/owner?, dia developer?]
 ] // Put your number here
 global.mods = [] // Want some help?
